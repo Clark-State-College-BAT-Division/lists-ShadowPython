@@ -14,3 +14,15 @@
 #Your entered foods are:
 #pizza, beef jerkey, rice triangles, steamed chinese bun, fried chicken 
 #You entered a total of 62 characters
+
+
+
+
+list = [input("Enter a food: "),input("Enter a food: "),input("Enter a food: "),input("Enter a food: "),input("Enter a food: ")]
+
+cherecters = 0
+for x in list: 
+    cherecters += len(x)
+
+print(f"Tour entered foods are: {list[0]}, {list[1]}, {list[2]}, {list[3]}, {list[4]}")
+print(f"you entered a total of {(cherecters)} cherecters")

@@ -4,3 +4,13 @@
 #This is a guided practice. You can follow the video or your instructor will go
 #over this in class
 # video url: https://youtu.be/VGrRdUunjXg
+
+count = 0
+list = []
+while count < 5:
+    list.append(int(input("Enter a number: ")))
+    count += 1
+
+print(list)
+print(sorted(list))
+print(sorted(list, reverse=True))
